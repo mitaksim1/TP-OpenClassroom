@@ -31,20 +31,17 @@ On souhaite avoir sur la même page, deux zones de texte :
 ### Structure de la table MySQL
 
 | id | pseudo | message |
-
-| ---- | :--------------: |:----------: |
-
+| ---- | :------: |:----: |
 | 1 | Tom | Il fait beau ! |
-
 | 2 | Ana | Il fait beau ! |
-
 | 3 | Charles | Il fait beau ! |
 
-- Champ ID : type INT, PRIMARY, auto_increment
 
-- Champ pseudo : type VARCHAR, taille maximale du champ 255
+Champ ID : type INT, PRIMARY, auto_increment
 
-- Champ message : type VARCHAR, taille maximale 255 OU text si on pense que le message sera plus long.
+Champ pseudo : type VARCHAR, taille maximale du champ 255
+
+Champ message : type VARCHAR, taille maximale 255 OU text si on pense que le message sera plus long.
 
 ### Structure de la page PHP de
 
