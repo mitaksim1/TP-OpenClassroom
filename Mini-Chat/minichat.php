@@ -10,7 +10,7 @@
     <form action="minichat_post.php" method="post">
         <div>
             <label for="chat">Pseudo</label>
-            <input type="text" id="pseudo" name="pseudo" value="">
+            <input type="text" id="pseudo" name="pseudo">
         </div>
         <div>
             <label for="message">Message</label>
@@ -18,6 +18,7 @@
         </div>     
         <button>Envoyer</button>
     </form>
+    <p>Bienvenu(e) <?php echo $_COOKIE['pseudo']; ?></p>
 
     <?php
         // Connexion a la bdd
